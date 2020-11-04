@@ -127,6 +127,7 @@ class LogisticRegression:
         plt.xlabel("Epoch")
         plt.ylabel("Accuracy")
         plt.plot(metric_graph["accuracy"])
+        plt.savefig("Accuracy.png")
         plt.show()
         
 
